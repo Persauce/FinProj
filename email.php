@@ -1,8 +1,8 @@
-<html>
-<body>
+<?php
 
-Welcome <?php echo $_GET["name"]; ?><br>
-Your email address is: <?php echo $_GET["email"]; ?>
-the massage is: <?php echo $_GET["message"]; ?>
-</body>
-</html>
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $POST['message'];
+$subscribe = isset($_POST['subscribe']) ? $_POST['subscribe'] : '';
+echo "<h1>name:</h1> " . htmlspecialchars($name);
+?>
