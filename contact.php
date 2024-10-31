@@ -68,7 +68,7 @@ echo "<h1>name:</h1> " . htmlspecialchars($name);
             </nav>
         <div class="container">
           <div class="row">
-            <form action="email.php" method="POST">
+            <form method="POST">
                 <div class="form-group">
                     <label for="name">First Name:</label>
                     <input type="text" class="form-control" id="Name"
