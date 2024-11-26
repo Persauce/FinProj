@@ -10,11 +10,22 @@
     font-size: 0.5rem;
 }
 
+.row-container {
+  background-color: #fff; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
 .form-group{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin:20px 0;
+    margin:10px 0;
 }
 
 .small-input{
@@ -26,7 +37,9 @@
     border-radius: 5px;
 }
 
-
+body {
+  background: linear-gradient(to bottom, #ece9e6, #ffffff);
+}
 
 .text-center h2 {
     font-size: 2rem;
@@ -35,10 +48,13 @@
   }
 
   .horizontal-nav {
-    display: flex; 
-    justify-content: center; 
-    gap: 20px;
-    margin-top: 10px; 
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ccc; 
+    position: relative;
+    z-index: 1; 
+    justify-content: center;
   }
   
   .nav-link {
@@ -50,5 +66,53 @@
   
   .nav-link:hover {
     color: #007BFF; /* Add hover effect */
-    text-decoration: bold; /* Optional hover style */
+
   }
+  
+  h3{
+    text-align:center;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333; /* Darker gray for contrast */
+    margin-bottom: 20px;
+  }
+  .row-container{
+    background-color:#999999;
+  }
+
+  .footer{
+    position: sticky;
+    margin: 0 10px;
+    font-size: 8px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background: linear-gradient(to right, #007bff, #0056b3); /* Gradient */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #003f8a);
+}
