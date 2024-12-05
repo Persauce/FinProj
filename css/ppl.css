@@ -1,0 +1,72 @@
+
+  /* Header Section */
+  .person {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .person h3 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .person-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover;
+  }
+  
+  /* Content Sections */
+  .content-section {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .content-section h2 {
+    font-size: 1.8rem;
+    text-decoration: underline;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Contact Link */
+  .contact-link {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .contact-link a {
+    font-size: 1.5rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-link a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  h3{
+    
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  h2{
+    padding-top:15px;
+  }
+  
+  a{
+    color:black;
+  }

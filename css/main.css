@@ -100,7 +100,7 @@ body {
 input:focus, textarea:focus {
   border-color: #007bff;
   outline: none;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 5px rgba(69, 110, 155, 0.5);
 }
 
 button {
@@ -115,4 +115,15 @@ button {
 
 button:hover {
   background: linear-gradient(to right, #0056b3, #003f8a);
+}
+
+.navbarLog{
+  font-weight: bold;
+  padding:10px;
+  box-shadow: #999999;
+  font-size: 1rem;
+}
+
+#meep{
+  color:white;
 }
