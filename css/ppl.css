@@ -1,5 +1,4 @@
-
-  /* Header Section */
+/*DEVELOPER: Dave Persaud, IS117-001, Fall 2024 */
   .person {
     text-align: center;
     margin: 20px 0;
@@ -17,8 +16,7 @@
     border: 2px solid #ccc;
     object-fit: cover;
   }
-  
-  /* Content Sections */
+
   .content-section {
     margin: 20px auto;
     width: 80%;
@@ -38,8 +36,7 @@
     margin-top: 10px;
     background-color: #f8f9fa;
   }
-  
-  /* Contact Link */
+ 
   .contact-link {
     text-align: center;
     margin: 20px 0;

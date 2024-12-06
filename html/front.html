@@ -1,9 +1,10 @@
+<!-- DEVELOPER: Dave Persaud, IS117-001, Fall 2024 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
-    <!-- CSS only -->
+    <title>ADP Dupe</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -24,7 +25,7 @@
                         bg-dark navbar-dark
                         col-12">
                    
-                    <a class="navbar-brand" href="index.html">Logo</a>
+                    <a class="navbarLogo" href="index.html"><img src="../images/dupe.png" alt="logo"></a>
                    
                     <button class="navbar-toggler" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -68,11 +69,10 @@
 
 
 
- <!-- Front-End Section -->
  <section class="development-section">
     <h2>Front-End</h2>
 
-    <!-- Goals -->
+
     <div class="goals-section">
       <h3>Goals</h3>
       <ul>
@@ -82,43 +82,39 @@
       </ul>
     </div>
 
-
-
+    
 
 
     <div class="languages-section">
         <h3>Languages Used and Purpose</h3>
         <div class="language-grid">
-          <!-- HTML Card -->
+    
           <div class="card">
             <h4>HTML</h4>
-            <p>Structure of the webpage</p>
-            <div class="icon-placeholder">HTML</div>
+            <p>We used basic HTML to construct a basic structure for a live web app</p>
           </div>
-          <!-- CSS Card -->
+      
           <div class="card">
             <h4>CSS</h4>
-            <p>Styling and layout</p>
-            <div class="icon-placeholder">CSS</div>
+            <p>We used CSS to style and overall make the web app look cleaner aka modern</p>
+          
           </div>
-          <!-- JavaScript Card -->
-          <div class="card">
-            <h4>JavaScript</h4>
-            <p>Interactivity and logic</p>
-            <div class="icon-placeholder">JS</div>
-          </div>
-          <!-- Bootstrap Card -->
+         
           <div class="card">
             <h4>Bootstrap</h4>
-            <p>Framework for responsiveness</p>
-            <div class="icon-placeholder">BS</div>
+            <p>Along with css, we used bootsrap to ensure neatness and cleanliness</p>
+            <div class="icon-placeholder">JS</div>
           </div>
         </div>
       </div>
       
 
 
-
+      <nav class="horizontal-nav">
+        <a href="#meet-the-devs" class="nav-link">Meet the Devs</a>
+        <a href="#development" class="nav-link">Development</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
 
 
 
@@ -131,14 +127,13 @@
  <footer class="footer">
      <div class="container">
         <div class="row">
-            <span class="text-muted">&copy; Persaud Dave, 2024 |  <a href="html/terms.html">Terms Of Use</a>  |  Privacy Statement</span>
+            <span class="text-muted">&copy; Persaud Dave, 2024 |  <a href="./terms.html">Terms Of Use</a>  |  Privacy Statement</span>
         </div>
      </div>
   </footer>
 </div>
 
 
-    <!-- Javascript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">

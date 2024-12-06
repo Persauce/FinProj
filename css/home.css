@@ -1,0 +1,38 @@
+/*DEVELOPER: Dave Persaud, IS117-001, Fall 2024 */
+.content-section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-section h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+  
+  .content-section ul {
+    list-style-position: inside;
+    padding:0;
+    text-align: center;
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+
+.content-section ul li{
+    display:inline-block;
+    text-align: left;
+    margin:5px 0;
+}
+h1{
+    text-align: center;
+    border-radius: 50%;
+    border-color: black;
+    padding:5px;
+}
